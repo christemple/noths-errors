@@ -12,6 +12,7 @@ get '/' do
 end
 
 post '/' do
+  #Raygun.io
   #{
   #  "event":"error_notification",
   #  "error": {
@@ -28,8 +29,30 @@ post '/' do
   #  }
   #}
 
-  raygun_error = JSON.parse(request.body.read)
-  mongo[:errors].insert_one(raygun_error)
+  #Honeybadger.io
+  #{
+  #  "event":"occurred",
+  #  "message":"[Crywolf/test] RuntimeError - oops",
+  #  "fault":{
+  #    "id":3151009,
+  #    "project_id":1717,
+  #    "klass":"RuntimeError",
+  #    "component":null,
+  #    "action":null,
+  #    "environment":"development",
+  #    "resolved":true,
+  #    "ignored":false,
+  #    "created_at":"2014-01-08T18:55:48Z",
+  #    "comments_count":1,
+  #    "message":"oops",
+  #    "notices_count":9,
+  #    "last_notice_at":"2014-01-08T19:02:21Z"
+  #  }
+  #}
+
+  logger.info("#{request.request_method} #{request.path} from #{request.referrer}")
+  error = JSON.parse(request.body.read)
+  mongo[:errors].insert_one(error)
   status 200
   ''
 end
