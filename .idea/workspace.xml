@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f4e5cd-789b-4a15-bc46-45408bed1e63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/honeybadger_example.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -12,7 +10,7 @@
     <file path="/Dummy.txt" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438252211744" ignored="false" />
     <file path="/config.ru" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438264951640" ignored="false" />
     <file path="/Gemfile" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438253105261" ignored="false" />
-    <file path="/index.erb" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438265059217" ignored="false" />
+    <file path="/index.erb" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438266460806" ignored="false" />
     <file path="/lala.json" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438264203010" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
       <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+            <state line="20" column="27" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +93,7 @@
       <file leaf-file-name="index.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="24" selection-start="469" selection-end="469" vertical-scroll-proportion="0.7835821">
+            <state line="11" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.41044775">
               <folding />
             </state>
           </provider>
@@ -441,14 +439,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+        <state line="20" column="27" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="469" selection-end="469" vertical-scroll-proportion="0.7835821">
+        <state line="11" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.41044775">
           <folding />
         </state>
       </provider>

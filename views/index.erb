@@ -1,24 +1,17 @@
 <h1>NOTHS errors</h1>
 
 <h2>Today</h2>
-<div class="error">
-    <span class="error-count">123</span>
-    <span class="error-message">
-        Failed to store user blah blah
-    </span>
-</div>
-<div class="error">
-    <span class="error-count">56</span>
-    <span class="error-message">
-        NoMethodError for id of Crapbag
-    </span>
-</div>
 
+<% @errors.each do |error| %>
+    <div class="error">
+        <span class="error-count"><%= error[:honeybadger_error_id] %></span>
+        <span class="error-message"><%= error[:message] %></span>
+        <span class="error-created-at"><%= error[:created_at] %></span>
+    </div>
+<% end %>
 
 <ul>
     <% @errors.each do |error| %>
-     <li><%= error %></li>
-     <li><%= error.inspect %></li>
-     <li><%= error.class %></li>
-<% end %>
+        <li><%= error[:honeybadger_error_id] %> -----  <%= error[:message] %> -----  <%= error[:created_at] %></li>
+    <% end %>
 </ul>
