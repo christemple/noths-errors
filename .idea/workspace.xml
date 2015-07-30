@@ -7,7 +7,7 @@
     <ignored path="noths-errors.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438252211744" ignored="false" />
-    <file path="/config.ru" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438260785057" ignored="false" />
+    <file path="/config.ru" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438262977138" ignored="false" />
     <file path="/Gemfile" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438253105261" ignored="false" />
     <file path="/index.erb" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438254443752" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,7 +73,7 @@
       <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="2" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.92957747">
+            <state line="4" column="19" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -408,7 +408,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="2" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.92957747">
+        <state line="4" column="19" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

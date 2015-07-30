@@ -2,6 +2,8 @@ require 'sinatra'
 require 'mongo'
 require 'json'
 
+disable :protection
+
 mongodb_uri = ENV['MONGOLAB_URI'] || 'mongodb://127.0.0.1:27017/nothsErrors'
 
 mongo = Mongo::Client.new(mongodb_uri)
