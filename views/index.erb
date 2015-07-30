@@ -1,0 +1,22 @@
+<h1>NOTHS errors</h1>
+
+<h2>Today</h2>
+<div class="error">
+    <span class="error-count">123</span>
+    <span class="error-message">
+        Failed to store user blah blah
+    </span>
+</div>
+<div class="error">
+    <span class="error-count">56</span>
+    <span class="error-message">
+        NoMethodError for id of Crapbag
+    </span>
+</div>
+
+
+<ul>
+    <% @errors.each do |error| %>
+     <li><%= error %></li>
+<% end %>
+</ul>
