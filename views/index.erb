@@ -18,5 +18,7 @@
 <ul>
     <% @errors.each do |error| %>
      <li><%= error %></li>
+     <li><%= error.inspect %></li>
+     <li><%= error.class %></li>
 <% end %>
 </ul>
