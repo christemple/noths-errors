@@ -30,6 +30,8 @@ post '/' do
 
   raygun_error = JSON.parse(request.body.read)
   mongo[:errors].insert_one(raygun_error)
+  status 200
+  ''
 end
 
 Sinatra::Application.run!

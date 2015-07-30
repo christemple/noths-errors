@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f4e5cd-789b-4a15-bc46-45408bed1e63" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/noths-errors.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
     </list>
     <ignored path="noths-errors.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438252211744" ignored="false" />
-    <file path="/config.ru" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438254604452" ignored="false" />
+    <file path="/config.ru" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438255245882" ignored="false" />
     <file path="/Gemfile" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438253105261" ignored="false" />
     <file path="/index.erb" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438254443752" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,7 +73,7 @@
       <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="40" selection-start="752" selection-end="752" vertical-scroll-proportion="0.64788735">
+            <state line="30" column="46" selection-start="711" selection-end="711" vertical-scroll-proportion="0.64788735">
               <folding />
             </state>
           </provider>
@@ -420,7 +408,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="40" selection-start="752" selection-end="752" vertical-scroll-proportion="0.64788735">
+        <state line="30" column="46" selection-start="711" selection-end="711" vertical-scroll-proportion="0.64788735">
           <folding />
         </state>
       </provider>
