@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f4e5cd-789b-4a15-bc46-45408bed1e63" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
     </list>
     <ignored path="noths-errors.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438252211744" ignored="false" />
-    <file path="/config.ru" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438264951640" ignored="false" />
+    <file path="/config.ru" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438273303212" ignored="false" />
     <file path="/Gemfile" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438253105261" ignored="false" />
     <file path="/index.erb" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438266460806" ignored="false" />
     <file path="/lala.json" changelist="49f4e5cd-789b-4a15-bc46-45408bed1e63" time="1438264203010" ignored="false" />
@@ -72,10 +71,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.ru" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.ru">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+            <state line="23" column="77" selection-start="580" selection-end="580" vertical-scroll-proportion="0.80985916">
               <folding />
             </state>
           </provider>
@@ -90,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.41044775">
+            <state line="11" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -129,8 +128,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lala.json" />
         <option value="$PROJECT_DIR$/honeybadger_example.json" />
-        <option value="$PROJECT_DIR$/config.ru" />
         <option value="$PROJECT_DIR$/views/index.erb" />
+        <option value="$PROJECT_DIR$/config.ru" />
       </list>
     </option>
   </component>
@@ -437,16 +436,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
+    <entry file="file://$PROJECT_DIR$/views/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.erb">
+    <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.41044775">
+        <state line="23" column="77" selection-start="580" selection-end="580" vertical-scroll-proportion="0.80985916">
           <folding />
         </state>
       </provider>

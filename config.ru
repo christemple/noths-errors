@@ -15,12 +15,13 @@ get '/' do
 end
 
 post '/' do
-  honeybadger_error = JSON.parse(request.body.read)
-  error = {
-      :honeybadger_error_id => honeybadger_error['fault']['id'],
-      :message => honeybadger_error['message'],
-      :created_at => DateTime.now
-  }
+  #honeybadger_error = JSON.parse(request.body.read)
+  #error = {
+  #    :honeybadger_error_id => honeybadger_error['fault']['id'],
+  #    :message => honeybadger_error['message'],
+  #    :created_at => DateTime.now
+  #}
+  error = JSON.parse(request.body.read) # raygun or honeybadger at this point
   mongo[:errors].insert_one(error)
   "Added #{error}"
 end
